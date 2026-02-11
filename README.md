@@ -1,13 +1,13 @@
 # 🩺 Medical Chatbot using LangChain (RAG)
 
-## 📌 Overview
+## Overview
 This project implements a Retrieval-Augmented Generation (RAG) based medical chatbot using LangChain, FAISS vector database, HuggingFace embeddings, and a Zephyr-7B LLM via Hugging Face Inference API.
 
 The system retrieves relevant medical document chunks using semantic similarity search and generates grounded, context-aware responses through a Streamlit chat interface.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 - LangChain
 - FAISS (Vector Database)
 - HuggingFace Embeddings (`sentence-transformers/all-MiniLM-L6-v2`)
@@ -17,7 +17,7 @@ The system retrieves relevant medical document chunks using semantic similarity 
 
 ---
 
-## 🔥 Features
+## Features
 - Retrieval-Augmented Generation (RAG)
 - Semantic similarity search using FAISS
 - Context-grounded response generation
@@ -28,7 +28,7 @@ The system retrieves relevant medical document chunks using semantic similarity 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 medical-chatbot-main-Project/
 │
@@ -44,7 +44,7 @@ medical-chatbot-main-Project/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Environment Setup
+## Environment Setup
 
 Create a `.env` file in the project root directory:
 
@@ -62,7 +62,7 @@ HF_TOKEN=your_huggingface_api_token
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 streamlit run medibot.py
@@ -72,7 +72,7 @@ The application will launch in your browser.
 
 ---
 
-## 🧠 Architecture Flow
+## Architecture Flow
 
 User Query  
 ⬇  
@@ -88,7 +88,7 @@ Streamlit Output
 
 ---
 
-## 🎯 Skills Demonstrated
+##  Skills Demonstrated
 - RAG Pipeline Design
 - Vector Database Integration
 - Embedding-Based Semantic Search
@@ -99,5 +99,5 @@ Streamlit Output
 
 ---
 
-## 👨‍💻 Author
+## Author
 Nitesh Godse
